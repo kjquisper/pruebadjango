@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djangop1.mysql.database.azure.com',
-        'NAME': 'libreria',
+        'ENGINE': 'mysql.database.azure.com',
+        'NAME': 'django',
         'USER': 'root1',
         'PASSWORD': '',
-        'HOST':'localhost',
+        'HOST':'djangop1.mysql.database.azure.com',
         'PORT':'3306'
     }
 }
