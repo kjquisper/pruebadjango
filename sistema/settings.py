@@ -104,6 +104,15 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# settings.py
+
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'appdjangoprueba.azurewebsites.net',
+    # Agrega aquí cualquier otro dominio que necesites
+]
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
