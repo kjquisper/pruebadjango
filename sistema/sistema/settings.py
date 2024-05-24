@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'djangop1.mysql.database.azure.com',
         'NAME': 'libreria',
-        'USER': 'root',
+        'USER': 'root1',
         'PASSWORD': '',
         'HOST':'localhost',
         'PORT':'3306'
