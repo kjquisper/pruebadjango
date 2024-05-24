@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.database.azure.com',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django',
         'USER': 'root1',
-        'PASSWORD': '',
+        'PASSWORD': '25kedyleo_N',
         'HOST':'djangop1.mysql.database.azure.com',
         'PORT':'3306'
     }
